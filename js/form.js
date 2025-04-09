@@ -1,7 +1,5 @@
 const form = document.querySelector("[data-js=questionForm]");
 const submitButton = document.querySelector("[data-js=submitQuestion]");
-const footer = document.querySelector("footer");
-console.log(footer);
 
 function createCard(data) {
   const section = document.createElement("section");
@@ -55,7 +53,7 @@ function createCard(data) {
 
   console.log(section);
   const enclosingFormSection = document.querySelector("footer");
-  footer.before(section);
+  form.after(section);
 }
 
 form.addEventListener("submit", (event) => {
