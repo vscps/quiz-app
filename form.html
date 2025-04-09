@@ -18,47 +18,15 @@
       <h1>Quiz App</h1>
     </header>
     <main>
-
-      <section class="question-card">
-        <h2>Question 1</h2>
-        <ul>
-          <li>Tag 1</li>
-          <li>Tag 2</li>
-          <li>Tag 3</li>
-        </ul>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <div data-js="bookmarkArea" class="bookmarkArea">
-          <div data-js="bookmark">
-            <i class="fa-solid fa-bookmark"></i>
-          </div>
-          <div data-js="favorite" class="hidden">
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </div>
-        <button data-js="showAnswer">Show answer</button>
-        <div data-js="answer" class="hidden">
-          This is the answer to the question.
-        </div>
-      </section>
       <section>
-      <form>
+      <form data-js="questionForm">
         <label for="question">Your question</label>
         <textarea name="question" id="question" rows="5" cols="30"></textarea>
         <label for="answer">Your answer</label>
         <textarea name="answer" id="answer" rows="10" cols="30"></textarea>
         <label for="tags">Tags</label>
         <input type="text" name="tags" id="tags" />
-        <button js-data="submitQuestion">Submit question</button>
+        <button data-js="submitQuestion">Submit question</button>
     </form>
     </section>
       <footer>
