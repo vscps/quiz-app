@@ -11,17 +11,14 @@
       src="https://kit.fontawesome.com/35a68b2723.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/index.js" defer></script>
+    <script src="./js/form.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Quiz App</h1>
     </header>
     <main>
-        <form>
-            <label for="question">Your question</label>
-            <input type="text" name="question">
-        </form>
+
       <section class="question-card">
         <h2>Question 1</h2>
         <ul>
@@ -53,7 +50,17 @@
           This is the answer to the question.
         </div>
       </section>
-
+      <section>
+      <form>
+        <label for="question">Your question</label>
+        <textarea name="question" id="question" rows="5" cols="30"></textarea>
+        <label for="answer">Your answer</label>
+        <textarea name="answer" id="answer" rows="10" cols="30"></textarea>
+        <label for="tags">Tags</label>
+        <input type="text" name="tags" id="tags" />
+        <button js-data="submitQuestion">Submit question</button>
+    </form>
+    </section>
       <footer>
         <nav>
           <ul>
