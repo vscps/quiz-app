@@ -32,7 +32,11 @@ main > .question-card ~ .question-card {
   padding: 5px;
 }
 
-.bookmark {
+.bookmarkArea {
+  cursor: pointer;
+}
+
+.question-card .fa-solid {
   position: absolute;
   right: 25px;
   top: -13px;

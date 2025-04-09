@@ -11,6 +11,7 @@
       src="https://kit.fontawesome.com/35a68b2723.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -35,30 +36,15 @@
           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
           takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
-        <i class="fa-solid fa-bookmark"></i><i class="fa-solid fa-star"></i>
-        <button name="showAnswer">Show answer</button>
+        <div data-js="bookmarkArea" class="bookmarkArea">
+        <div data-js="bookmark">
+          <i class="fa-solid fa-bookmark"></i>
+        </div>
+        <div data-js="favorite" class="hidden"><i class="fa-solid fa-star"></i></div>
+        <div></div>
+        <button data-js="showAnswer">Show answer</button>
       </section>
-      <section class="question-card">
-        <h2>Question 1</h2>
-        <ul>
-          <li>Tag 1</li>
-          <li>Tag 2</li>
-          <li>Tag 3</li>
-        </ul>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <i class="fa-solid fa-bookmark"></i><i class="fa-solid fa-star"></i>
-        <button name="showAnswer">Show answer</button>
-      </section>
+
       <footer>
         <nav>
           <ul>
