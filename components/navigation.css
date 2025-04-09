@@ -17,6 +17,12 @@ footer ul {
 
 footer ul li {
   display: flex;
-  border: 1px solid red;
   height: 100%;
+}
+
+footer i {
+  font-size: 50px;
+  color: #ffad28;
+  text-shadow: 2px 3px 3px #555;
+  margin: 15px;
 }
