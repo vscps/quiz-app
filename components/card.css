@@ -45,12 +45,3 @@ main > .question-card ~ .question-card {
   color: #ffad28;
   text-shadow: 2px 3px 3px #555;
 }
-
-.question-card button {
-  max-width: 150px;
-  margin: 15px;
-  align-self: center;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}

@@ -1,3 +1,26 @@
 .hidden {
   display: none;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 75px;
+  align-self: center;
+}
+
+button {
+  max-width: 150px;
+  margin: 15px;
+  align-self: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
