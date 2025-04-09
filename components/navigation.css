@@ -20,7 +20,8 @@ footer ul li {
   height: 100%;
 }
 
-footer i {
+footer i a,
+footer i a:visited {
   font-size: 50px;
   color: #ffad28;
   text-shadow: 2px 3px 3px #555;
