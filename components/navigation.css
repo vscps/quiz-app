@@ -1,0 +1,22 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+}
+
+footer ul li {
+  display: flex;
+  border: 1px solid red;
+  height: 100%;
+}
