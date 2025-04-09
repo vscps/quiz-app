@@ -20,10 +20,13 @@ footer ul li {
   height: 100%;
 }
 
-footer i a,
-footer i a:visited {
+footer i {
   font-size: 50px;
   color: #ffad28;
   text-shadow: 2px 3px 3px #555;
   margin: 15px;
+}
+
+footer i a:visited {
+  color: #ffad28;
 }
